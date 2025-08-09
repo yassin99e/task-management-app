@@ -1,0 +1,65 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.py-4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Card styles */
+.card {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+.form-control:focus {
+    border-color: #4c1d95;
+    box-shadow: 0 0 0 0.2rem rgba(76, 29, 149, 0.25);
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #4c1d95;
+    border-color: #4c1d95;
+}
+
+.btn-primary:hover {
+    background-color: #5b21b6;
+    border-color: #5b21b6;
+}
+
+/* ...existing styles... */
+
+.task-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-form .form-label {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.task-form .form-control:focus,
+.task-form .form-select:focus {
+    border-color: #4c1d95;
+    box-shadow: 0 0 0 0.2rem rgba(76, 29, 149, 0.25);
+}
